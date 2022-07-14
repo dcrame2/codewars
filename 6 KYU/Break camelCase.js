@@ -4,7 +4,7 @@
 // "camelCasing"  =>  "camel Casing"
 // "identifier"   =>  "identifier"
 // ""             =>  ""
-
+//update
 function solution(string) {
   string = string.split("").map(function (letter) {
     if (letter === letter.toUpperCase()) {
