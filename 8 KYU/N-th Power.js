@@ -6,6 +6,7 @@
 
 // array = [1, 2, 3, 4] and N = 2, then the result is 3^2 == 9;
 // array = [1, 2, 3] and N = 3, but N is outside of the array, so the result is -1.
+
 function index(array, n) {
   return typeof array[n] === "undefined" ? -1 : array[n] ** n;
 }
