@@ -6,6 +6,7 @@
 // setAlarm(false, true) -> false
 // setAlarm(false, false) -> false
 // setAlarm(true, false) -> true
+
 function setAlarm(employed, vacation) {
   return employed && !vacation;
 }
