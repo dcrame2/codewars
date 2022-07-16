@@ -4,7 +4,7 @@
 // * [-52, 56, 30, 29, -54, 0, -110] -> min = -110, max = 56
 // * [42, 54, 65, 87, 0]             -> min = 0, max = 87
 // * [5]                             -> min = 5, max = 5
-
+//update
 var min = function (list) {
   return Math.min(...list);
 };
