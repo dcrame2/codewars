@@ -6,5 +6,6 @@
 // n= 5, m=5: 25
 // n=-5, m=5:  0
 function paperwork(n, m) {
+  //refactored
   return n < 0 || m < 0 ? 0 : n * m;
 }
